@@ -1,0 +1,58 @@
+{
+  "root": {
+    "devDir": "./src/",
+    "buildDir": "./build/",
+    "publicDir": "./docs/"
+  },
+
+  "html": {
+    "devDir": "",
+    "buildDir": ""
+  },
+
+  "css": {
+    "devDir": "css/",
+    "buildDir": "css/"
+  },
+
+  "sass": {
+    "devDir": "sass/",
+    "mainFileName": "style",
+    "extentions": ".+(sass|scss)"
+  },
+
+  "js": {
+    "devDir": "ts/",
+    "buildDir": "js/"
+  },
+
+  "img": {
+    "devDir": "img/",
+    "buildDir": "img/",
+    "extentions": "*.{png,jpg,svg}",
+    "webp": {
+      "convertToWebp": true,
+      "devDir": "",
+      "buildDir": "webp",
+      "extentions": "*.{png,jpg}"
+    },
+    "sprite": {
+      "createSprite": true,
+      "devDir": "sprite/",
+      "buildDir": "sprite/",
+      "extentions": "*.svg",
+      "name": "sprite.svg"
+    }
+  },
+
+  "fonts": {
+    "devDir": "fonts/",
+    "buildDir": "fonts/",
+    "extentions": "*.{woff,woff2}"
+  },
+  
+  "assets": {
+    "devDir": "assets/",
+    "buildDir": "assets/"
+  }
+}
